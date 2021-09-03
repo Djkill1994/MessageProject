@@ -1,0 +1,42 @@
+body{
+    background-color: gray;
+}
+.project-container {
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    left: 390px;
+    top: 70px;
+    box-shadow: black 1px 10px 10px 10px;
+}
+h1, .button-submit, .entry-field, .massage, .text-last-mass{
+    font-family: 'Reggae One', cursive;
+}
+h1{
+font-size: 25px;
+}
+
+.button-submit{
+    margin-top: 10px;
+}
+
+.button-submit:hover {
+    background-color: gray;
+}
+
+.entry-field{
+    width: 300px;
+    height: 20px;
+}
+.entry-field:hover{
+    background-color: silver;
+}
+
+.massage{
+    color: cornflowerblue;
+}
